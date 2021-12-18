@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "supercoder79.riverredux.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBiomeLayers",
+    "MixinDrownedEntity",
+    "MixinMinecraftServer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
